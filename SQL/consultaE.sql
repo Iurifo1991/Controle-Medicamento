@@ -1,0 +1,1 @@
+select tipo, MIN(preco), caixas*doses_caixa as total from estoque where caixas >0 and ((tipo='antibiotico') or (tipo='anti-inflamatorio')) group by tipo

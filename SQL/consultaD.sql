@@ -1,0 +1,1 @@
+select med_nome from estoque where caixas=(SELECT MIN(caixas) from estoque  where  tipo= 'anti-inflamatorio') and tipo = 'anti-inflamatorio'

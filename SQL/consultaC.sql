@@ -1,0 +1,1 @@
+SELECT doses,nome from medicamento WHERE paciente_nome = 'Iuri Fernandes';

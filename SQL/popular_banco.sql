@@ -1,0 +1,16 @@
+INSERT INTO paciente (cpf, idade, nome ,peso) VALUES(12345678978 ,33, 'Iuri Fernandes' , 70);
+INSERT INTO paciente (cpf, idade, nome ,peso) VALUES(12345678979 ,27, 'Iago Oliveira' , 85);
+INSERT INTO paciente (cpf, idade, nome ,peso) VALUES(12345678972 ,44, 'Eduardo Costa' , 80);
+INSERT INTO paciente (cpf, idade, nome ,peso) VALUES(12345678971 ,40, 'Rodrigo Pecene' , 70);
+INSERT INTO medicamento(dias,doses,nome,paciente_nome) VALUES (5,4,'Dipirona','Iuri Fernandes');
+INSERT INTO medicamento(dias,doses,nome,paciente_nome) VALUES (5,3,'Cataflan','Iuri Fernandes');
+INSERT INTO medicamento(dias,doses,nome,paciente_nome) VALUES (5,2,'Dipirona','Iago Oliveira');
+INSERT INTO medicamento(dias,doses,nome,paciente_nome) VALUES (6,1,'Cataflan','Iago Oliveira');
+INSERT INTO medicamento(dias,doses,nome,paciente_nome) VALUES (7,2,'Ibuprofeno','Iago Oliveira');
+INSERT INTO medicamento(dias,doses,nome,paciente_nome) VALUES (7,3,'Dipirona','Eduardo Costa');
+INSERT INTO medicamento(dias,doses,nome,paciente_nome) VALUES (3,3,'Cataflan','Eduardo Costa');
+INSERT INTO medicamento(dias,doses,nome,paciente_nome) VALUES (3,4,'Dipirona','Rodrigo Pecene');
+INSERT INTO medicamento(dias,doses,nome,paciente_nome) VALUES (3,4,'Cataflan','Rodrigo Pecene');
+INSERT INTO estoque(doses_caixa,med_nome,preco,caixas,tipo) VALUES (12,'Dipirona', 35,50,'anti-inflamatorio');
+INSERT INTO estoque(doses_caixa,med_nome,preco,caixas,tipo) VALUES (10,'Cataflan', 50,60,'anti-inflamatorio');
+INSERT INTO estoque(doses_caixa,med_nome,preco,caixas,tipo) VALUES (8,'Ibuprofeno', 70,20,'antibiotico');
